@@ -1,20 +1,14 @@
-<p align="center">
-  <img src="./assets/hero.gif" alt="AI SDK Hero" width="800"/>
-</p>
+# AI SDK
 
-<h1 align="center">AI SDK</h1>
+![AI SDK Hero](./assets/hero.gif)
 
-<p align="center">
-  A TypeScript-first toolkit for building AI-powered applications, conversational interfaces, and autonomous agent loops across modern web frameworks and runtimes.
-</p>
+A TypeScript-first toolkit for building AI-powered applications, conversational interfaces, and autonomous agent loops across modern web frameworks and runtimes.
 
-<p align="center">
-  <a href="https://ai-sdk.dev/docs"><img src="https://img.shields.io/badge/docs-ai--sdk.dev-blue" alt="Documentation" /></a>
-  <a href="https://github.com/RISE-DEFENSE-SYSTEMS-AI/ai/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache_2.0-green" alt="License" /></a>
-  <a href="https://turbo.build/repo"><img src="https://img.shields.io/badge/monorepo-Turborepo-ef4444" alt="Turborepo" /></a>
-  <a href="https://pnpm.io/"><img src="https://img.shields.io/badge/package_manager-pnpm_v10-f97316" alt="pnpm" /></a>
-  <a href="https://orm.drizzle.team/"><img src="https://img.shields.io/badge/orm-Drizzle_ORM-C5F74F" alt="Drizzle ORM" /></a>
-</p>
+[![Documentation](https://img.shields.io/badge/docs-ai--sdk.dev-blue)](https://ai-sdk.dev/docs)
+[![License](https://img.shields.io/badge/license-Apache_2.0-green)](https://github.com/RISE-DEFENSE-SYSTEMS-AI/ai/blob/main/LICENSE)
+[![Turborepo](https://img.shields.io/badge/monorepo-Turborepo-ef4444)](https://turbo.build/repo)
+[![pnpm](https://img.shields.io/badge/package_manager-pnpm_v10-f97316)](https://pnpm.io/)
+[![Drizzle ORM](https://img.shields.io/badge/orm-Drizzle_ORM-C5F74F)](https://orm.drizzle.team/)
 
 ---
 
@@ -39,7 +33,7 @@ Whether you are crafting real-time streaming chatbots, integrating structured sc
 
 ## Repository Structure
 
-```
+```text
 .
 ├── packages/
 │   ├── ai/                    # Core AI SDK engine and universal interfaces
@@ -185,6 +179,7 @@ The repository includes a ready-to-use Drizzle ORM setup for storing user data, 
    ```
 
 3. Run the example database operations:
+
    ```bash
    npx tsx src/index.ts
    ```
